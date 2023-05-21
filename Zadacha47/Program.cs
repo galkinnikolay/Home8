@@ -8,10 +8,10 @@
 // 8,0 7,8 -7,1 9,0
 
 Console.Write("Введите количество строк массива: ");
-int rows = int.Parse(Console.ReadLine());
+int rows = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите количество столбцов массива: ");
-int columns = int.Parse(Console.ReadLine());
+int columns = Convert.ToInt32(Console.ReadLine());
 
 double [,] array = new double [rows, columns];
 
